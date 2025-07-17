@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<store>
+    <metadata>
+        <name>TechHub Electronics</name>
+        <version>1.0</version>
+        <currency>PHP</currency>
+        <last_updated>2025-06-28</last_updated>
+    </metadata>
+
+    <categories>
+        <category>Smartphones</category>
+        <category>Laptops</category>
+        <category>Audio Devices</category>
+        <category>Gaming</category>
+        <category>Smart Home</category>
+    <category>Accessories</category><category>Dogs</category></categories>
+
+    <products>
+        <product>
+            <id>3001</id>
+            <name>Galaxy S24 Ultra</name>
+            <category>Smartphones</category>
+            <price>65000</price>
+            <currency>PHP</currency>
+            <description>Latest flagship smartphone with AI-powered camera and S Pen</description>
+            <image>images/galaxy-s24-ultra.jpg</image>
+            <stock>18</stock>
+            <sizes>
+                <size>128GB</size>
+                <size>256GB</size>
+                <size>512GB</size>
+            </sizes>
+            <colors>
+                <color>Titanium Black</color>
+                <color>Titanium Gray</color>
+                <color>Titanium Violet</color>
+            </colors>
+            <rating>4.8</rating>
+            <review_count>42</review_count>
+            <featured>true</featured>
+            <on_sale>false</on_sale>
+        </product>
+        <product>
+            <id>3002</id>
+            <name>iPhone 15 Pro</name>
+            <category>Smartphones</category>
+            <price>70000</price>
+            <currency>PHP</currency>
+            <description>Premium iPhone with titanium design and advanced camera system</description>
+            <image>images/iphone-15-pro.jpg</image>
+            <stock>18</stock>
+            <sizes>
+                <size>128GB</size>
+                <size>256GB</size>
+                <size>512GB</size>
+                <size>1TB</size>
+            </sizes>
+            <colors>
+                <color>Natural Titanium</color>
+                <color>Blue Titanium</color>
+                <color>White Titanium</color>
+                <color>Black Titanium</color>
+            </colors>
+            <rating>4.9</rating>
+            <review_count>38</review_count>
+            <featured>true</featured>
+            <on_sale>false</on_sale>
+        </product>
+        <product>
+            <id>3003</id>
+            <name>Pixel 8</name>
+            <category>Smartphones</category>
+            <price>45000</price>
+            <currency>PHP</currency>
+            <description>Google's AI-enhanced smartphone with exceptional photography</description>
+            <image>images/pixel-8.jpg</image>
+            <stock>30</stock>
+            <sizes>
+                <size>128GB</size>
+                <size>256GB</size>
+            </sizes>
+            <colors>
+                <color>Obsidian</color>
+                <color>Hazel</color>
+                <color>Rose</color>
+            </colors>
+            <rating>4.6</rating>
+            <review_count>24</review_count>
+            <featured>false</featured>
+            <on_sale>true</on_sale>
+        </product>
+        <product>
+            <id>3004</id>
+            <name>OnePlus 12</name>
+            <category>Smartphones</category>
+            <price>55000</price>
+            <currency>PHP</currency>
+            <description>High-performance smartphone with ultra-fast charging</description>
+            <image>images/oneplus_12.jpg</image>
+            <stock>22</stock>
+            <sizes>
+                <size>256GB</size>
+                <size>512GB</size>
+            </sizes>
+            <colors>
+                <color>Silky Black</color>
+                <color>Flowy Emerald</color>
+                <color>Pale Green</color>
+            </colors>
+            <rating>4.5</rating>
+            <review_count>19</review_count>
+            <featured>false</featured>
+            <on_sale>false</on_sale>
+        </product>
+        <product>
+            <id>3005</id>
+            <name>MacBook Air M3</name>
+            <category>Laptops</category>
+            <price>75000</price>
+            <currency>PHP</currency>
+            <description>Ultra-thin laptop with Apple's latest M3 chip for exceptional performance</description>
+            <image>images/macbook_air_m3.jpg</image>
+            <stock>15</stock>
+            <sizes>
+                <size>13-inch</size>
+                <size>15-inch</size>
+            </sizes>
+            <colors>
+                <color>Midnight</color>
+                <color>Starlight</color>
+                <color>Silver</color>
+                <color>Space Gray</color>
+            </colors>
+            <rating>4.8</rating>
+            <review_count>35</review_count>
+            <featured>true</featured>
+            <on_sale>false</on_sale>
+        </product>
+        <product>
+            <id>3006</id>
+            <name>Dell XPS 13</name>
+            <category>Laptops</category>
+            <price>68000</price>
+            <currency>PHP</currency>
+            <description>Premium ultrabook with InfinityEdge display and long battery life</description>
+            <image>images/dell-xps-13.jpg</image>
+            <stock>12</stock>
+            <sizes>
+                <size>13.4-inch</size>
+            </sizes>
+            <colors>
+                <color>Platinum Silver</color>
+                <color>Graphite</color>
+            </colors>
+            <rating>4.6</rating>
+            <review_count>28</review_count>
+            <featured>false</featured>
+            <on_sale>true</on_sale>
+        </product>
+        <product>
+            <id>3007</id>
+            <name>ASUS ROG Zephyrus G16</name>
+            <category>Laptops</category>
+            <price>95000</price>
+            <currency>PHP</currency>
+            <description>High-performance gaming laptop with RTX 4070 graphics</description>
+            <image>images/asus-rog-g16.jpg</image>
+            <stock>8</stock>
+            <sizes>
+                <size>16-inch</size>
+            </sizes>
+            <colors>
+                <color>Eclipse Gray</color>
+                <color>Platinum White</color>
+            </colors>
+            <rating>4.7</rating>
+            <review_count>22</review_count>
+            <featured>true</featured>
+            <on_sale>false</on_sale>
+        </product>
+        <product>
+            <id>3008</id>
+            <name>Lenovo ThinkPad X1 Carbon</name>
+            <category>Laptops</category>
+            <price>85000</price>
+            <currency>PHP</currency>
+            <description>Business laptop with military-grade durability and security features</description>
+            <image>images/thinkpad_x1.jpg</image>
+            <stock>10</stock>
+            <sizes>
+                <size>14-inch</size>
+            </sizes>
+            <colors>
+                <color>Black</color>
+            </colors>
+            <rating>4.5</rating>
+            <review_count>18</review_count>
+            <featured>false</featured>
+            <on_sale>false</on_sale>
+        </product>
+        <product>
+            <id>3009</id>
+            <name>AirPods Pro (3rd Gen)</name>
+            <category>Audio Devices</category>
+            <price>12000</price>
+            <currency>PHP</currency>
+            <description>Premium wireless earbuds with adaptive transparency and spatial audio</description>
+            <image>images/airpods_pro_3.jpg</image>
+            <stock>40</stock>
+            <sizes>
+                <size>One Size</size>
+            </sizes>
+            <colors>
+                <color>White</color>
+            </colors>
+            <rating>4.8</rating>
+            <review_count>56</review_count>
+            <featured>true</featured>
+            <on_sale>false</on_sale>
+        </product>
+        <product>
+            <id>3010</id>
+            <name>Sony WH-1000XM5</name>
+            <category>Audio Devices</category>
+            <price>18000</price>
+            <currency>PHP</currency>
+            <description>Industry-leading noise canceling wireless headphones</description>
+            <image>images/sony_wh1000xm5.jpg</image>
+            <stock>25</stock>
+            <sizes>
+                <size>Over-ear</size>
+            </sizes>
+            <colors>
+                <color>Black</color>
+                <color>Silver</color>
+                <color>Midnight Blue</color>
+            </colors>
+            <rating>4.9</rating>
+            <review_count>44</review_count>
+            <featured>true</featured>
+            <on_sale>false</on_sale>
+        </product>
+        <product>
+            <id>3011</id>
+            <name>Bose Quiet Comfort Earbuds</name>
+            <category>Audio Devices</category>
+            <price>15000</price>
+            <currency>PHP</currency>
+            <description>Wireless earbuds with world-class noise cancellation</description>
+            <image>images/bose_qc_earbuds.jpg</image>
+            <stock>35</stock>
+            <sizes>
+                <size>One Size</size>
+            </sizes>
+            <colors>
+                <color>Triple Black</color>
+                <color>Soapstone</color>
+                <color>Glacier White</color>
+            </colors>
+            <rating>4.6</rating>
+            <review_count>31</review_count>
+            <featured>false</featured>
+            <on_sale>true</on_sale>
+        </product>
+        <product>
+            <id>3012</id>
+            <name>JBL Charge 5</name>
+            <category>Audio Devices</category>
+            <price>8000</price>
+            <currency>PHP</currency>
+            <description>Portable waterproof speaker with powerbank function</description>
+            <image>images/jbl_charge_5.jpg</image>
+            <stock>30</stock>
+            <sizes>
+                <size>Portable</size>
+            </sizes>
+            <colors>
+                <color>Black</color>
+                <color>Blue</color>
+                <color>Red</color>
+                <color>Gray</color>
+            </colors>
+            <rating>4.4</rating>
+            <review_count>38</review_count>
+            <featured>false</featured>
+            <on_sale>false</on_sale>
+        </product>
+        <product>
+            <id>3013</id>
+            <name>PlayStation 5</name>
+            <category>Gaming</category>
+            <price>35000</price>
+            <currency>PHP</currency>
+            <description>Next-gen gaming console with 4K gaming and ray tracing</description>
+            <image>images/playstation_5.jpg</image>
+            <stock>12</stock>
+            <sizes>
+                <size>Standard</size>
+                <size>Digital Edition</size>
+            </sizes>
+            <colors>
+                <color>White</color>
+            </colors>
+            <rating>4.9</rating>
+            <review_count>48</review_count>
+            <featured>true</featured>
+            <on_sale>false</on_sale>
+        </product>
+        <product>
+            <id>3014</id>
+            <name>Xbox Series X</name>
+            <category>Gaming</category>
+            <price>32000</price>
+            <currency>PHP</currency>
+            <description>Microsoft's most powerful gaming console with 12 teraflops</description>
+            <image>images/xbox_series_x.jpg</image>
+            <stock>15</stock>
+            <sizes>
+                <size>1TB</size>
+            </sizes>
+            <colors>
+                <color>Matte Black</color>
+            </colors>
+            <rating>4.7</rating>
+            <review_count>33</review_count>
+            <featured>true</featured>
+            <on_sale>false</on_sale>
+        </product>
+        <product>
+            <id>3015</id>
+            <name>Nintendo Switch OLED</name>
+            <category>Gaming</category>
+            <price>22000</price>
+            <currency>PHP</currency>
+            <description>Handheld gaming console with vibrant OLED screen</description>
+            <image>images/switch_oled.jpg</image>
+            <stock>20</stock>
+            <sizes>
+                <size>64GB</size>
+            </sizes>
+            <colors>
+                <color>White</color>
+                <color>Neon Blue/Red</color>
+            </colors>
+            <rating>4.8</rating>
+            <review_count>52</review_count>
+            <featured>true</featured>
+            <on_sale>false</on_sale>
+        </product>
+        <product>
+            <id>3016</id>
+            <name>Logitech G29 Driving Force</name>
+            <category>Gaming</category>
+            <price>9000</price>
+            <currency>PHP</currency>
+            <description>Logitech G29 Driving Force is a racing wheel with dual-motor force feedback that realistically simulates driving for PS5, PS4, PC, and Mac.</description>
+            <image>images/logitechG29.jpg</image>
+            <stock>28</stock>
+            <sizes>
+                <size>One Size</size>
+            </sizes>
+            <colors>
+                <color>Black</color>
+                <color>White</color>
+            </colors>
+            <rating>4.5</rating>
+            <review_count>26</review_count>
+            <featured>false</featured>
+            <on_sale>true</on_sale>
+        </product>
+        <product>
+            <id>3017</id>
+            <name>Razer DeathAdder V3</name>
+            <category>Gaming</category>
+            <price>4500</price>
+            <currency>PHP</currency>
+            <description>Ergonomic gaming mouse with 30K DPI sensor</description>
+            <image>images/deathadder_v3.jpg</image>
+            <stock>45</stock>
+            <sizes>
+                <size>Standard</size>
+            </sizes>
+            <colors>
+                <color>Black</color>
+                <color>White</color>
+            </colors>
+            <rating>4.6</rating>
+            <review_count>34</review_count>
+            <featured>false</featured>
+            <on_sale>false</on_sale>
+        </product>
+        <product>
+            <id>3018</id>
+            <name>Amazon Echo Dot (5th Gen)</name>
+            <category>Smart Home</category>
+            <price>3500</price>
+            <currency>PHP</currency>
+            <description>Compact smart speaker with improved audio and Alexa</description>
+            <image>images/echo_dot_5.jpg</image>
+            <stock>50</stock>
+            <sizes>
+                <size>Compact</size>
+            </sizes>
+            <colors>
+                <color>Charcoal</color>
+                <color>Glacier White</color>
+                <color>Deep Sea Blue</color>
+            </colors>
+            <rating>4.4</rating>
+            <review_count>67</review_count>
+            <featured>true</featured>
+            <on_sale>false</on_sale>
+        </product>
+        <product>
+            <id>3019</id>
+            <name>Google Nest Hub (2nd Gen)</name>
+            <category>Smart Home</category>
+            <price>6500</price>
+            <currency>PHP</currency>
+            <description>Smart display with Google Assistant and sleep sensing</description>
+            <image>images/nest_hub_2.jpg</image>
+            <stock>35</stock>
+            <sizes>
+                <size>7-inch</size>
+            </sizes>
+            <colors>
+                <color>Chalk</color>
+                <color>Charcoal</color>
+                <color>Mist</color>
+                <color>Sand</color>
+            </colors>
+            <rating>4.5</rating>
+            <review_count>41</review_count>
+            <featured>false</featured>
+            <on_sale>true</on_sale>
+        </product>
+        <product>
+            <id>3020</id>
+            <name>Philips Hue Smart Bulb Starter Kit</name>
+            <category>Smart Home</category>
+            <price>8000</price>
+            <currency>PHP</currency>
+            <description>Color-changing smart bulbs with bridge and app control</description>
+            <image>images/hue_starter_kit.jpg</image>
+            <stock>25</stock>
+            <sizes>
+                <size>3-Bulb Kit</size>
+                <size>4-Bulb Kit</size>
+            </sizes>
+            <colors>
+                <color>Multi-Color</color>
+                <color>White Color</color>
+            </colors>
+            <rating>4.7</rating>
+            <review_count>55</review_count>
+            <featured>true</featured>
+            <on_sale>false</on_sale>
+        </product>
+        <product>
+            <id>3021</id>
+            <name>Ring Video Doorbell Pro 2</name>
+            <category>Smart Home</category>
+            <price>12000</price>
+            <currency>PHP</currency>
+            <description>Advanced video doorbell with 3D motion detection</description>
+            <image>images/ring_doorbell_pro2.jpg</image>
+            <stock>18</stock>
+            <sizes>
+                <size>Standard</size>
+            </sizes>
+            <colors>
+                <color>Satin Nickel</color>
+                <color>Venetian Bronze</color>
+            </colors>
+            <rating>4.6</rating>
+            <review_count>29</review_count>
+            <featured>false</featured>
+            <on_sale>false</on_sale>
+        </product>
+        <product>
+            <id>3022</id>
+            <name>TP-Link Kasa Smart Plug</name>
+            <category>Smart Home</category>
+            <price>1200</price>
+            <currency>PHP</currency>
+            <description>WiFi smart plug with energy monitoring and voice control</description>
+            <image>images/kasa_smart_plug.jpg</image>
+            <stock>75</stock>
+            <sizes>
+                <size>Single Outlet</size>
+                <size>4-Pack</size>
+            </sizes>
+            <colors>
+                <color>White</color>
+            </colors>
+            <rating>4.3</rating>
+            <review_count>83</review_count>
+            <featured>false</featured>
+            <on_sale>true</on_sale>
+        </product>
+        <product>
+            <id>3023</id>
+            <name>Beats Solo 4</name>
+            <category>Audio Devices</category>
+            <price>11100</price>
+            <currency>PHP</currency>
+            <description>Beats Solo 4 are wireless on-ear headphones with personalized Spatial Audio, up to 50 hours of battery life, and compatibility with both Apple and Android devices.</description>
+            <image>images/beats_solo.jpg</image>
+            <stock>60</stock>
+            <sizes>
+                <size>One Size</size>
+            </sizes>
+            <colors>
+                <color>Black</color>
+                <color>White</color>
+                <color>Blue</color>
+            </colors>
+            <rating>4.5</rating>
+            <review_count>47</review_count>
+            <featured>false</featured>
+            <on_sale>false</on_sale>
+        </product>
+        <product>
+            <id>3024</id>
+            <name>realme TechLife Robot Vacuum</name>
+            <category>Smart Home</category>
+            <price>18000</price>
+            <currency>PHP</currency>
+            <description>Realme TechLife Robot Vacuum is a 2-in-1 vacuum and mop cleaner with LiDAR smart mapping, 38 sensors, and WiFi connectivity for app control.</description>
+            <image>images/realmevacuum.jpg</image>
+            <stock>22</stock>
+            <sizes>
+                <size>40mm</size>
+                <size>44mm</size>
+            </sizes>
+            <colors>
+                <color>Graphite</color>
+                <color>Silver</color>
+                <color>Gold</color>
+            </colors>
+            <rating>4.7</rating>
+            <review_count>36</review_count>
+            <featured>true</featured>
+            <on_sale>false</on_sale>
+        </product>
+        <product>
+            <id>3025</id>
+            <name>Samsung Galaxy Book 3</name>
+            <category>Laptops</category>
+            <price>32000</price>
+            <currency>PHP</currency>
+            <description>The Samsung Galaxy Book 3 is a slim, powerful laptop with a vivid display and fast performance.</description>
+            <image>images/samsungbook.jpg</image>
+            <stock>40</stock>
+            <sizes>
+                <size>Compact</size>
+            </sizes>
+            <colors>
+                <color>Space Gray</color>
+                <color>Silver</color>
+            </colors>
+            <rating>4.4</rating>
+            <review_count>28</review_count>
+            <featured>false</featured>
+            <on_sale>true</on_sale>
+        </product>
+    <product><id>3026</id><name>Poodle</name><category>Dogs</category><price>10000</price><currency>PHP</currency><description>Arf</description><image>uploads/321148032_898644824841897_5058720003442278549_n.jpg</image><stock>2</stock><rating>4.5</rating><review_count>0</review_count><featured>false</featured><on_sale>false</on_sale><sizes/><colors/></product></products>
+
+    <stock_history>
+        <entry>
+            <product_id>3001</product_id>
+            <product_name>Galaxy S24 Ultra</product_name>
+            <old_stock>20</old_stock>
+            <new_stock>25</new_stock>
+            <change>5</change>
+            <reason>New Stock Received</reason>
+            <admin_id>1</admin_id>
+            <admin_name>TechHub Admin</admin_name>
+            <date>2025-06-25 14:22:15</date>
+        </entry>
+        <entry>
+            <product_id>3001</product_id>
+            <product_name>Galaxy S24 Ultra</product_name>
+            <old_stock>24</old_stock>
+            <new_stock>15</new_stock>
+            <change>-9</change>
+            <reason>Inventory Correction</reason>
+            <admin_id>1</admin_id>
+            <admin_name>HirayaFit Admin</admin_name>
+            <date>2025-07-07 16:06:39</date>
+        </entry>
+    <entry><product_id>3001</product_id><product_name>Galaxy S24 Ultra</product_name><old_stock>15</old_stock><new_stock>20</new_stock><change>5</change><reason>New Stock Received</reason><admin_id>1</admin_id><admin_name>TechHub Admin</admin_name><date>2025-07-15 17:01:20</date></entry><entry><product_id>3001</product_id><product_name>Galaxy S24 Ultra</product_name><old_stock>20</old_stock><new_stock>18</new_stock><change>-2</change><reason>Stock Damaged</reason><admin_id>1</admin_id><admin_name>TechHub Admin</admin_name><date>2025-07-16 14:06:22</date></entry></stock_history>
+</store>

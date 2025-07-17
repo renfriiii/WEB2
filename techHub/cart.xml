@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cart>
+
+<item>
+    <id/>
+    <user_id/>
+    <product_id/>
+    <product_name/>
+    <image/>
+    <price/>
+    <color/>
+    <size/>
+    <quantity/>
+    <timestamp/>
+</item>
+
+<item><id>item_68784a07eed7f</id><user_id>13</user_id><product_id>3002</product_id><product_name>iPhone 15 Pro</product_name><image>images/iphone-15-pro.jpg</image><price>70000</price><color>Natural Titanium</color><size>128GB</size><quantity>1</quantity><timestamp>2025-07-17 02:55:35</timestamp></item></cart>

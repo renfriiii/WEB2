@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transactions>
+
+
+<transaction>
+    <transaction_id>TRX-6874757BC1566</transaction_id>
+    <user_id>2</user_id>
+    <transaction_date>2025-07-14 05:11:55</transaction_date>
+    <status>processing</status>
+    <payment_method>gcash</payment_method>
+    <subtotal>275000</subtotal>
+    <shipping_fee>0</shipping_fee>
+    <total_amount>275000</total_amount>
+<items>
+    <item>
+        <product_id>3001</product_id>
+        <product_name>Galaxy S24 Ultra</product_name>
+        <price>65000</price>
+        <quantity>1</quantity>
+        <color>Titanium Black</color>
+        <size>128GB</size>
+        <subtotal>65000</subtotal>
+    </item>
+<item>
+    <product_id>3002</product_id>
+    <product_name>iPhone 15 Pro</product_name>
+    <price>70000</price>
+    <quantity>3</quantity>
+    <color>Natural Titanium</color>
+    <size>128GB</size>
+    <subtotal>210000</subtotal>
+    </item>
+</items>
+    <shipping_info>
+        <fullname>Alianna Fatima Bernardo</fullname>
+        <email>bernardoaliannafatima@gmail.com</email>
+        <phone>09352205700</phone>
+        <address>Maasim SIB</address>
+        <city>San Ildefonso</city>
+        <postal_code>3010</postal_code>
+        <notes/>
+    </shipping_info>
+
+</transaction>
+
+<transaction>
+    <transaction_id>TRX-6876318FA3DFC</transaction_id>
+    <user_id>2</user_id>
+    <transaction_date>2025-07-15 12:46:39</transaction_date>
+    <status>delivered</status>
+    <payment_method>gcash</payment_method>
+    <subtotal>20000</subtotal>
+    <shipping_fee>0</shipping_fee>
+    <total_amount>20000</total_amount>
+<items>
+    <item>
+        <product_id>3026</product_id>
+        <product_name>Buds</product_name>
+        <price>20000</price>
+        <quantity>1</quantity>
+        <color/>
+        <size/>
+        <subtotal>20000</subtotal>
+    </item>
+</items>
+    <shipping_info>
+        <fullname>Alianna Fatima Bernardo</fullname>
+        <email>bernardoaliannafatima@gmail.com</email>
+        <phone>09234456789</phone>
+        <address>San Roque San Rafael Bulacan</address>
+        <city>San Rafael</city>
+        <postal_code>2010</postal_code>
+        <notes/>
+    </shipping_info>
+</transaction>
+
+<transaction><transaction_id>TRX-6877934151D97</transaction_id><user_id>12</user_id><transaction_date>2025-07-16 13:55:45</transaction_date><status>processing</status><payment_method>gcash</payment_method><subtotal>135000</subtotal><shipping_fee>0</shipping_fee><total_amount>135000</total_amount><items><item><product_id>3002</product_id><product_name>iPhone 15 Pro</product_name><price>70000</price><quantity>1</quantity><color>Natural Titanium</color><size>128GB</size><subtotal>70000</subtotal></item><item><product_id>3001</product_id><product_name>Galaxy S24 Ultra</product_name><price>65000</price><quantity>1</quantity><color>Titanium Black</color><size>128GB</size><subtotal>65000</subtotal></item></items><shipping_info><fullname>Alfred Bernardo</fullname><email>aliprimebank@gmail.com</email><phone>09455568712</phone><address>San Roque San Rafael Bulacan</address><city>San Rafael</city><postal_code>2010</postal_code><notes/></shipping_info></transaction><transaction><transaction_id>TRX-68784A15B2CE6</transaction_id><user_id>13</user_id><transaction_date>2025-07-17 02:55:49</transaction_date><status>pending</status><payment_method>pending</payment_method><subtotal>70000</subtotal><shipping_fee>0</shipping_fee><total_amount>70000</total_amount><items><item><product_id>3002</product_id><product_name>iPhone 15 Pro</product_name><price>70000</price><quantity>1</quantity><color>Natural Titanium</color><size>128GB</size><subtotal>70000</subtotal></item></items></transaction></transactions>
