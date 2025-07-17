@@ -114,8 +114,7 @@ $totalRevenue = array_sum(array_column($transactions, 'total_amount'));
 $totalOrders = count($transactions);
 $totalProducts = count($products);
 
-// Database connection required here
-// Example: $conn = new mysqli('localhost', 'username', 'password', 'database');
+
 
 // User count (sample query — adjust as needed)
 $user_count_query = "SELECT COUNT(*) as total_users FROM users WHERE is_active = 1";

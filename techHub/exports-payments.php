@@ -10,17 +10,6 @@ $username_email = '';
 // Include TCPDF library - you'll need to download and include it
 require_once('TCPDF-main/TCPDF-main/tcpdf.php');
 
-
-
-// Create database connection
-$conn = new mysqli($db_host, $db_user, $db_pass, $db_name);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-
-// Check if the user is logged in
 if (!isset($_SESSION['admin_id'])) {
     header("Location: sign-in.php");
     exit;
