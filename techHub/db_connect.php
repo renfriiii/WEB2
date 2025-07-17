@@ -9,9 +9,9 @@ if ($serverName === 'localhost' || $serverName === '127.0.0.1') {
     $db_name = 'techHub'; 
 } else {
     $db_host = 'localhost';
-    $db_user = 'u801377270_hiraya_2025'; 
-    $db_pass = 'Hiraya_2025'; 
-    $db_name = 'u801377270_hiraya_2025'; 
+    $db_user = 'u801377270_techhub_db'; 
+    $db_pass = 'Techhub@2025'; 
+    $db_name = 'u801377270_techhub_db'; 
 }
 
 
