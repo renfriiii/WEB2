@@ -586,7 +586,7 @@
             <change>-9</change>
             <reason>Inventory Correction</reason>
             <admin_id>1</admin_id>
-            <admin_name>HirayaFit Admin</admin_name>
+            <admin_name>TechHub Admin</admin_name>
             <date>2025-07-07 16:06:39</date>
         </entry>
     <entry><product_id>3001</product_id><product_name>Galaxy S24 Ultra</product_name><old_stock>15</old_stock><new_stock>20</new_stock><change>5</change><reason>New Stock Received</reason><admin_id>1</admin_id><admin_name>TechHub Admin</admin_name><date>2025-07-15 17:01:20</date></entry><entry><product_id>3001</product_id><product_name>Galaxy S24 Ultra</product_name><old_stock>20</old_stock><new_stock>18</new_stock><change>-2</change><reason>Stock Damaged</reason><admin_id>1</admin_id><admin_name>TechHub Admin</admin_name><date>2025-07-16 14:06:22</date></entry></stock_history>
