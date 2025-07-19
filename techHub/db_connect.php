@@ -15,10 +15,6 @@ if ($serverName === 'localhost' || $serverName === '127.0.0.1') {
 }
 
 
-
-
-
-
 $conn = new mysqli($db_host, $db_user, $db_pass, $db_name);
 
 
