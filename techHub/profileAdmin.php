@@ -205,16 +205,18 @@ $stmt->close();
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <style>
         :root {
-            --primary: #111111;
-            --secondary: #0071c5;
-            --accent: #e5e5e5;
+            --primary: #0a0e1a;
+            --secondary: #1a2332;
+            --accent: #00d4ff;
+            --accent-glow: rgba(0, 212, 255, 0.3);
             --light: #ffffff;
-            --dark: #111111;
-            --grey: #767676;
-            --sidebar-width: 250px;
-            --danger: #dc3545;
-            --success: #28a745;
-            --warning: #ffc107;
+            --dark: #0a0e1a;
+            --grey: #8892b0;
+            --light-grey: #ccd6f6;
+            --sidebar-width: 280px;
+            --danger: #ff6b6b;
+            --success: #64ffda;
+            --warning: #ffd700;
         }
         
         * {
@@ -225,50 +227,88 @@ $stmt->close();
         }
         
         body {
-            background-color: #f8f9fa;
+            background: linear-gradient(135deg, #0a0e1a 0%, #1a2332 100%);
             display: flex;
             min-height: 100vh;
+            color: var(--light-grey);
         }
 
         /* Sidebar Styles */
         .sidebar {
             width: var(--sidebar-width);
-            background-color: var(--primary);
+            background: linear-gradient(180deg, #0f1419 0%, #1a2332 100%);
             color: white;
             position: fixed;
             height: 100vh;
             overflow-y: auto;
             transition: all 0.3s ease;
             z-index: 1000;
+            border-right: 2px solid var(--accent);
+            box-shadow: 4px 0 20px rgba(0, 212, 255, 0.15);
+        }
+
+        .sidebar::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .sidebar::-webkit-scrollbar-track {
+            background: #1a2332;
+        }
+
+        .sidebar::-webkit-scrollbar-thumb {
+            background: var(--accent);
+            border-radius: 10px;
         }
         
         .sidebar-header {
-            padding: 20px;
+            padding: 25px 20px;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            border-bottom: 1px solid rgba(0, 212, 255, 0.2);
+            background: rgba(0, 212, 255, 0.05);
+            backdrop-filter: blur(10px);
         }
         
         .sidebar-logo {
-            font-size: 22px;
+            font-size: 24px;
             font-weight: 700;
             color: var(--light);
             text-decoration: none;
             letter-spacing: -0.5px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .sidebar-logo i {
+            font-size: 28px;
+            background: linear-gradient(45deg, var(--accent), #0099cc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
         }
         
         .sidebar-logo span {
-            color: var(--secondary);
+            color: var(--accent);
+            text-shadow: 0 0 10px var(--accent-glow);
         }
         
         .sidebar-close {
-            color: white;
+            color: var(--accent);
             background: none;
             border: none;
-            font-size: 18px;
+            font-size: 20px;
             cursor: pointer;
             display: none;
+            padding: 5px;
+            border-radius: 50%;
+            transition: all 0.3s ease;
+        }
+
+        .sidebar-close:hover {
+            background: rgba(0, 212, 255, 0.1);
+            transform: rotate(90deg);
         }
         
         .sidebar-menu {
@@ -276,39 +316,85 @@ $stmt->close();
         }
         
         .menu-title {
-            font-size: 12px;
+            font-size: 11px;
             text-transform: uppercase;
-            color: #adb5bd;
-            padding: 10px 20px;
-            margin-top: 10px;
+            color: var(--accent);
+            padding: 15px 20px 10px;
+            margin-top: 15px;
+            font-weight: 600;
+            letter-spacing: 1.5px;
+            border-bottom: 1px solid rgba(0, 212, 255, 0.1);
+            margin-bottom: 10px;
         }
         
         .sidebar-menu a {
             display: flex;
             align-items: center;
-            color: #e9ecef;
+            color: var(--light-grey);
             text-decoration: none;
-            padding: 12px 20px;
+            padding: 15px 20px;
             transition: all 0.3s ease;
             font-size: 14px;
+            font-weight: 500;
+            margin: 5px 15px;
+            border-radius: 12px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .sidebar-menu a::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(0, 212, 255, 0.1), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .sidebar-menu a:hover::before {
+            left: 100%;
         }
         
         .sidebar-menu a:hover {
-            background-color: rgba(255, 255, 255, 0.08);
-            color: var(--secondary);
+            background: rgba(0, 212, 255, 0.1);
+            color: var(--light);
+            transform: translateX(5px);
+            box-shadow: 0 4px 15px rgba(0, 212, 255, 0.2);
+            border-left: 4px solid var(--accent);
         }
         
         .sidebar-menu a.active {
-            background-color: rgba(255, 255, 255, 0.08);
-            border-left: 3px solid var(--secondary);
-            color: var(--secondary);
+            background: linear-gradient(90deg, rgba(0, 212, 255, 0.2), rgba(0, 212, 255, 0.1));
+            border-left: 4px solid var(--accent);
+            color: var(--light);
+            box-shadow: 0 4px 15px rgba(0, 212, 255, 0.3);
         }
         
         .sidebar-menu a i {
-            margin-right: 10px;
-            font-size: 16px;
+            margin-right: 12px;
+            font-size: 18px;
             width: 20px;
             text-align: center;
+            color: var(--accent);
+        }
+
+        .notification-badge {
+            background: linear-gradient(45deg, #ff6b6b, #ff8e53);
+            color: white;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 11px;
+            margin-left: auto;
+            font-weight: bold;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
         }
         
         /* Main Content Area */
@@ -316,19 +402,22 @@ $stmt->close();
             flex: 1;
             margin-left: var(--sidebar-width);
             transition: all 0.3s ease;
+            background: linear-gradient(135deg, #0a0e1a 0%, #1a2332 100%);
         }
         
         /* Top Navigation */
         .top-navbar {
-            background-color: white;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-            padding: 15px 20px;
+            background: linear-gradient(90deg, rgba(15, 20, 25, 0.95), rgba(26, 35, 50, 0.95));
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(0, 212, 255, 0.2);
+            padding: 20px 30px;
             display: flex;
             justify-content: space-between;
             align-items: center;
             position: sticky;
             top: 0;
             z-index: 100;
+            box-shadow: 0 4px 20px rgba(0, 212, 255, 0.1);
         }
         
         .toggle-sidebar {
@@ -347,7 +436,7 @@ $stmt->close();
         
         .navbar-title {
             font-weight: 600;
-            color: var(--dark);
+            color: var(--light);
             font-size: 18px;
             margin-right: 20px;
         }
@@ -355,13 +444,17 @@ $stmt->close();
         .navbar-actions {
             display: flex;
             align-items: center;
+            gap: 20px;
         }
         
         .navbar-actions .nav-link {
-            color: var(--dark);
+            color: var(--grey);
             font-size: 18px;
-            margin-right: 20px;
             position: relative;
+            padding: 10px;
+            border-radius: 50%;
+            transition: all 0.3s ease;
+            text-decoration: none;
         }
         
         .notification-count {
@@ -393,7 +486,7 @@ $stmt->close();
         .settings-title {
             font-size: 28px;
             font-weight: 700;
-            color: var(--dark);
+            color: var(--light);
             margin-bottom: 8px;
         }
         
@@ -705,7 +798,7 @@ $stmt->close();
             
             <div class="menu-title">REPORTS & SETTINGS</div>
             <a href="reports.php"><i class="fas fa-file-pdf"></i> Reports & Analytics</a>
-            <a href="profileAdmin.php" class="active"><i class="fas fa-cog"></i> System Settings</a>
+            <!-- <a href="profileAdmin.php" class="active"><i class="fas fa-cog"></i> System Settings</a> -->
         </div>
     </aside>
 
@@ -723,10 +816,10 @@ $stmt->close();
                     <i class="fas fa-bell"></i>
                     <span class="notification-count">3</span>-->
                 </a>
-                <a href="messages.php" class="nav-link">
+                <!-- <a href="messages.php" class="nav-link">
                     <i class="fas fa-envelope"></i>
                     <span class="notification-count">5</span>
-                </a>
+                </a> -->
                 <a href="dashboard.php" class="nav-link" title="Back to Dashboard">
                     <i class="fas fa-arrow-left"></i>
                 </a>

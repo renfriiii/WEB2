@@ -1645,6 +1645,10 @@ function getUserStatus($is_active, $otp_purpose, $otp_expires_at) {
                                 <span class="admin-dropdown-role"><?php echo htmlspecialchars($admin['role']); ?></span>
                             </div>
                         </div>
+                        <div class="admin-dropdown-user">
+                            <h4 class="admin-dropdown-user-name"><?php echo htmlspecialchars($admin['fullname']); ?></h4>
+                            <p class="admin-dropdown-user-email"><?php echo htmlspecialchars($admin['email']); ?></p>
+                        </div>
                         <a href="profileAdmin.php"><i class="fas fa-user"></i> Profile Settings</a>
                         
                         <a href="logout.php" class="logout"><i class="fas fa-sign-out-alt"></i> Logout</a>

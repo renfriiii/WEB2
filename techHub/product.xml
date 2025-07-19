@@ -564,7 +564,7 @@
             <featured>false</featured>
             <on_sale>true</on_sale>
         </product>
-    <product><id>3026</id><name>Poodle</name><category>Dogs</category><price>10000</price><currency>PHP</currency><description>Arf</description><image>uploads/321148032_898644824841897_5058720003442278549_n.jpg</image><stock>2</stock><rating>4.5</rating><review_count>0</review_count><featured>false</featured><on_sale>false</on_sale><sizes/><colors/></product></products>
+    </products>
 
     <stock_history>
         <entry>
